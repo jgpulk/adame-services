@@ -37,6 +37,26 @@
   --nav-dropdown-hover-color: #e87532; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
+/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+:root { 
+  --background-color: #ffffff; /* Keep background white for contrast */
+  --default-color: #0a0f14; /* Keep text dark for readability */
+  --heading-color: #d62828; /* Dark red for headings */
+  --accent-color: #d62828; /* Bold red accent (used for buttons, links, etc.) */
+  --surface-color: #ffffff; /* Box backgrounds stay white */
+  --contrast-color: #ffffff; /* White for text over red backgrounds */
+}
+
+/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+:root {
+  --nav-color: #0a0f14;  /* Keep nav text dark */
+  --nav-hover-color: #d62828; /* Red on hover */
+  --nav-mobile-background-color: #ffffff; /* Keep mobile nav background white */
+  --nav-dropdown-background-color: #ffffff; /* Keep dropdown background white */
+  --nav-dropdown-color: #0a0f14; /* Keep dropdown text dark */
+  --nav-dropdown-hover-color: #d62828; /* Red on hover in dropdown */
+}
+
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
